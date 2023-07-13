@@ -4,15 +4,16 @@
   "description": "New Project",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "ui5 serve --open index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "@ui5/cli": "^3.3.2"
+    
   }
 }
