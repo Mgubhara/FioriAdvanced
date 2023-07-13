@@ -1,0 +1,5 @@
+applications:
+- name : Nodeproject
+- buildpacks:  
+  - nodejs_buildpack
+- memory : 1G
