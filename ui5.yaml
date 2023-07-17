@@ -2,3 +2,12 @@ specVersion: '3.0'
 metadata:
   name: nodeproject
 type: application
+resources:
+  configuration:
+    paths:
+      webapp: dist
+server:
+  customMiddleware:
+  - name: fiori-tools-appreload
+    afterMiddleware: compression
+
